@@ -8,16 +8,16 @@
 
 /* COMMON */
 
-.section{
-    width: 100%;
-    height: 100vh;
-    position: relative;
-}
-
 html{
     font-family: 'Rubik Mono One', sans-serif;
+    scroll-behavior: smooth;
 }
 
+.section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
 
 .center-block{
     position: absolute;
@@ -32,16 +32,52 @@ html{
     color: yellow;
 }
 
-/* SECTION COLOR */
+/* MENU */
+
+.menu{
+    position: absolute;
+    position: fixed;
+    z-index: 999999999;
+    top: 4%;
+    right: 2%;
+}
+
+.menu ul li{
+    display: inline-block;    
+    list-style: none;
+}
+
+.menu ul a{
+    display: inline-block;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: black;
+    background-color: white;
+}
+
+
+/* SECTION & COMMENT COLOR */
 
 #bg-red{
-    background-color: rgb(255, 126, 126); FIXME:
+    background-color: rgb(255, 126, 126); 
 }
 
 #bg-green{
-    background-color: rgb(139, 248, 139); FIXME:
+    background-color: rgb(139, 248, 139); 
 }
 
-#bg-green{
-    background-color: rgb(250, 250, 149); FIXME:
+#bg-yellow{
+    background-color: rgb(250, 250, 149); 
+}
+
+.comment-yellow{
+    color: yellow;
+}
+
+.comment-green{
+    color: green;
 }
