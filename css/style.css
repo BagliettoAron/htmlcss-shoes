@@ -5,3 +5,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+
+.section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+html{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+
+.center-block{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shoes-comment{
+    text-align: center;
+    font-size: 3em;
+    color: yellow;
+}
+
+/* SECTION COLOR */
+
+#bg-red{
+    background-color: rgb(255, 126, 126); FIXME:
+}
+
+#bg-green{
+    background-color: rgb(139, 248, 139); FIXME:
+}
+
+#bg-green{
+    background-color: rgb(250, 250, 149); FIXME:
+}
